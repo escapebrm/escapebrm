@@ -31,7 +31,7 @@
   <style>
     :root {
       --bg: #ffffff;
-      --panel: #000000;
+      --panel: #ffffff;
       --muted: #020202;
       --text: #000000;
       /* Paleta del logo */
@@ -132,7 +132,7 @@
     .service-grid { display:grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
     .service { position:relative; padding: 22px; border-radius: var(--radius); border: 1px solid #23233a; background: radial-gradient(240px 160px at 100% 0, rgba(124,92,255,.12), transparent 50%), linear-gradient(180deg, #12121a, #0f0f16); box-shadow: var(--shadow); transition:.25s ease; }
     .service:hover { transform: translateY(-3px); border-color:#2f2f52; }
-    .service i { font-size: 1.2rem; padding:.65rem; border-radius: 12px; background:#1a1a24; border:1px solid #2a2a3b; }
+    .service i { font-size: 1.2rem; padding:.65rem; border-radius: 12px; background:#8d8daa; border:1px solid #2a2a3b; }
     .service h3 { margin:.75rem 0 .25rem; font-size:1.05rem; }
     .service ul { margin: .25rem 0 0; padding: 0 0 0 1.1rem; color: var(--muted); }
     .service ul li { margin:.25rem 0; }
@@ -143,7 +143,7 @@
     /* -------- PORTAFOLIO -------- */
     .portfolio { padding: 64px 0; }
     .filters { display:flex; gap:.5rem; flex-wrap:wrap; margin-bottom: 8px; }
-    .filter { padding:.45rem .8rem; border-radius: 999px; border:1px solid #2a2a3b; background:#141421; cursor:pointer; font-weight:600; font-size:.9rem }
+    .filter { padding:.45rem .8rem; border-radius: 999px; border:1px solid #2a2a3b; background:#ffffff; cursor:pointer; font-weight:600; font-size:.9rem }
     .filter.active { border-color: transparent; background: linear-gradient(135deg, var(--brand), var(--brand-2)); }
 
     .gallery { display:grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
@@ -243,7 +243,7 @@ footer .social a i {
 
     /* -------- OPINIONES (imagenes) -------- */
     .opiniones .swiper-slide{display:flex;align-items:center;justify-content:center}
-    .opiniones img{max-height:380px;width:auto;border-radius:14px;border:1px solid #26263c;box-shadow:var(--shadow)}
+    .opiniones img{max-height:380px;width:auto;border-radius:14px;border:1px solid transparent;box-shadow:var(--shadow)}
     @media (max-width:720px){ .opiniones img{max-height:280px} }
 
   
@@ -288,10 +288,10 @@ footer .social a i {
           <a class="btn btn-ghost" href="https://www.facebook.com/profile.php?id=100027304166702" target="_blank" rel="noopener" data-tip="Facebook">
           <i class="fa-brands fa-facebook" aria-hidden="true"></i>
           <a class="btn btn-ghost" href="Instagram
-https://www.instagram.com/escapebrm" target="_blank" rel="noopener" data-tip="Facebook">
+https://www.instagram.com/escapebrm" target="_blank" rel="noopener" data-tip="Instagram">
           <i class="fa-brands fa-instagram" aria-hidden="true"></i>
           <a class="btn btn-ghost" href="Instagram
-tiktok.com/@escape.brm" target="_blank" rel="noopener" data-tip="Facebook">
+tiktok.com/@escape.brm" target="_blank" rel="noopener" data-tip="TikTok">
           <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
           
         </a>
@@ -395,74 +395,74 @@ tiktok.com/@escape.brm" target="_blank" rel="noopener" data-tip="Facebook">
       <!-- Diseño e Impresión HD -->
       <article class="service reveal">
         <i class="fa-solid fa-print" aria-hidden="true"></i>
-        <h3>Diseño e Impresión HD</h3>
+        <h3>Diseño Grafico Corporativo</h3>
         <ul>
-          <li>Tarjetas de presentación</li>
-          <li>Invitaciones</li>
-          <li>Calcomanías</li>
-          <li>Volantes y Trifoliares</li>
-          <li>Carnés</li>
-          <li>Mantas vinílicas</li>
+          <li>Diseño de Logotipo</li>
+          <li>Diseño de Marca(manual normativo basico)</li>
+          <li>Diseño por envase baja complejidad (Diseño de etiqueta)</li>
+          <li>Desarrollo señaletico</li>
+          <li>Diseño Editorial</li>
+          <li>Diseño de Brochure institucional(10 paginas, no incluye fotos, redaccion, etc.)</li>
         </ul>
       </article>
 
       <!-- Fotografía -->
       <article class="service reveal">
         <i class="fa-solid fa-camera" aria-hidden="true"></i>
-        <h3>Fotografía</h3>
+        <h3>Diseño para impresos promocionales</h3>
         <ul>
-          <li>Sesiones fotográficas</li>
-          <li>Edición y retoque</li>
-          <li>Alquiler de estudio fotográfico</li>
+          <li>Diseño de tarjetas de presentacion</li>
+          <li>Diseño de volantes</li>
+          <li>Diseño de portadas para CD</li>
+          <li>Diseño de tapas para libros o portada de revista</li>
+          <li>Diseño pagina de revista</li>
         </ul>
       </article>
 
       <!-- Diseño / Branding -->
       <article class="service reveal">
         <i class="fa-solid fa-pen-ruler" aria-hidden="true"></i>
-        <h3>Diseño & Branding</h3>
+        <h3>Impresion y Productos Graficos</h3>
         <ul>
-          <li>Diseño de logotipo y marca (manual básico)</li>
-          <li>Diseño de envase / etiqueta</li>
-          <li>Diseño web (hasta 5 secciones)</li>
-          <li>Desarrollo señalético</li>
-          <li>Diseño editorial (libros, revistas, brochures)</li>
+          <li>Diseño e impresion HD</li>
+          <li>Tarjetas de presentacion</li>
+          <li>Invitaciones</li>
+          <li>Calcomanias</li>
+          <li>Volantes</li>
+          <li>Trifoliares</li>
+          <li>Carné</li>
+          <li>Mantas Vinilicas</li>
         </ul>
       </article>
 
       <!-- Piezas específicas -->
       <article class="service reveal">
         <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
-        <h3>Piezas específicas</h3>
+        <h3>Fotografia y Estudio</h3>
         <ul>
-          <li>Tarjetas para ocasiones especiales</li>
-          <li>Trifoliares y volantes</li>
-          <li>Afiches</li>
-          <li>Tapas y portadas (libros, revistas, CD)</li>
-          <li>Brochure institucional (10 páginas)</li>
-          <li>Página de revista</li>
+          <li>Fotografia</li>
+          <li>Sesion fotografica</li>
+          <li>Edicion de fotografia</li>
+          <li>Alquiler estudio fotografico</li>
         </ul>
       </article>
 
       <!-- Web & Digital -->
       <article class="service reveal">
         <i class="fa-solid fa-globe" aria-hidden="true"></i>
-        <h3>Web & Digital</h3>
+        <h3>Diseño Especializado</h3>
         <ul>
-          <li>Sitios web rápidos (hasta 5 secciones)</li>
-          <li>Optimización on-page básica</li>
-          <li>Integración WhatsApp / Formularios</li>
+          <li>Diseño web (hasta 5 secciones)</li>
+          <li>Diseño tarjetas de ocasiones especiales</li>
         </ul>
       </article>
 
       <!-- Asesoría -->
       <article class="service reveal">
         <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
-        <h3>Asesoría Creativa</h3>
+        <h3>Servicios Integrles de Diseño</h3>
         <ul>
-          <li>Diagnóstico de marca</li>
-          <li>Revisión de arte para impresión</li>
-          <li>Guía de materiales y acabados</li>
+          <li>Diseño (general, servicio base que engloba todos los demas)</li>
         </ul>
       </article>
     </div>
@@ -483,40 +483,40 @@ tiktok.com/@escape.brm" target="_blank" rel="noopener" data-tip="Facebook">
     <div class="filters" role="tablist" aria-label="Filtros de portafolio">
       <button class="filter active" data-filter="all" role="tab" aria-selected="true">Todo</button>
       <button class="filter" data-filter="impresion" role="tab">Impresión</button>
-      <button class="filter" data-filter="branding" role="tab">Branding</button>
-      <button class="filter" data-filter="editorial" role="tab">Editorial</button>
-      <button class="filter" data-filter="foto" role="tab">Fotografía</button>
-      <button class="filter" data-filter="web" role="tab">Web</button>
+      <button class="filter" data-filter="Fotografia" role="tab">Fotografia</button>
+      <button class="filter" data-filter="Diseño de marca" role="tab">Diseño de marca</button>
+      <button class="filter" data-filter="Diseño para publicidad" role="tab">Diseño para publicidad</button>
+      <button class="filter" data-filter="Diseño editorial" role="tab">Diseño Editorial</button>
     </div>
 
     <div class="gallery" id="gallery">
-      <figure class="item reveal" data-cat="branding">
-        <img src="https://images.unsplash.com/photo-1586263459431-1b8157a1c0b5?w=1000&auto=format&fit=crop&q=60" alt="Branding paquetes con etiqueta"/>
-        <figcaption class="badge">Branding</figcaption>
+      <figure class="item reveal" data-cat="Diseño para publicidad">
+        <img src="1.jpg" alt="Branding paquetes con etiqueta"/>
+        <figcaption class="badge">Diseño para publicidad</figcaption>
+      </figure>
+      <figure class="item reveal" data-cat="Diseño de marca">
+        <img src="2.jpg" alt="Tarjetas de presentación impresión HD"/>
+        <figcaption class="badge">Diseño de marca</figcaption>
       </figure>
       <figure class="item reveal" data-cat="impresion">
-        <img src="https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=1000&auto=format&fit=crop&q=60" alt="Tarjetas de presentación impresión HD"/>
-        <figcaption class="badge">Impresión</figcaption>
+        <img src="3.jpg" alt="Diseño editorial revista"/>
+        <figcaption class="badge">Impresion</figcaption>
       </figure>
-      <figure class="item reveal" data-cat="editorial">
-        <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0ea?w=1000&auto=format&fit=crop&q=60" alt="Diseño editorial revista"/>
-        <figcaption class="badge">Editorial</figcaption>
-      </figure>
-      <figure class="item reveal" data-cat="foto">
-        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1000&auto=format&fit=crop&q=60" alt="Sesión fotográfica retrato"/>
-        <figcaption class="badge">Fotografía</figcaption>
-      </figure>
-      <figure class="item reveal" data-cat="web">
-        <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?w=1000&auto=format&fit=crop&q=60" alt="Diseño web en laptop"/>
-        <figcaption class="badge">Web</figcaption>
+      <figure class="item reveal" data-cat="diseño editorial">
+        <img src="4.jpg" alt="Sesión fotográfica retrato"/>
+        <figcaption class="badge">Diseño Editorial</figcaption>
       </figure>
       <figure class="item reveal" data-cat="impresion">
-        <img src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?w=1000&auto=format&fit=crop&q=60" alt="Volantes impresos"/>
-        <figcaption class="badge">Impresión</figcaption>
+        <img src="5.jpg" alt="Diseño web en laptop"/>
+        <figcaption class="badge">Impresion</figcaption>
       </figure>
-      <figure class="item reveal" data-cat="branding">
-        <img src="https://images.unsplash.com/photo-1526948531399-320e7e40f0ca?w=1000&auto=format&fit=crop&q=60" alt="Manual de marca básico"/>
-        <figcaption class="badge">Branding</figcaption>
+      <figure class="item reveal" data-cat="fotografia">
+        <img src="6.jpg" alt="Volantes impresos"/>
+        <figcaption class="badge">Fotografia</figcaption>
+      </figure>
+      <figure class="item reveal" data-cat="Diseño editorial">
+        <img src="7.png" alt="Manual de marca básico"/>
+        <figcaption class="badge">Diseño editorial</figcaption>
       </figure>
       <figure class="item reveal" data-cat="foto">
         <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=1000&auto=format&fit=crop&q=60" alt="Set de estudio fotográfico"/>
